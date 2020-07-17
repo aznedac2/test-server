@@ -1,0 +1,48 @@
+
+/* oculta other colors productos scenes */
+#product-16244884 .secondary-wrap.colors{
+  display: none;
+}
+
+/* textos en blanco looks scenes */
+#I2019-SCENES-CHAPTER-1-PRODUCT-1-LOOKS .product-info {
+  color: #FFF !important;
+}
+#I2019-SCENES-CHAPTER-1-PRODUCT-1-LOOKS .product-info a {
+  color: #FFF !important;
+}
+#S2019-SCENES-CHAPTER-1-PRODUCT-1-LOOKS .product-info {
+  color: #FFF !important;
+}
+#S2019-SCENES-CHAPTER-1-PRODUCT-1-LOOKS .product-info a {
+  color: #FFF !important;
+}
+
+/* elimina filete blanco en video */
+.zara-scenes-page .video-wrapper {
+  font-size: 0;
+}
+
+/* START BF */
+
+/* in web mobile we dont want to show facets at all*/
+.menu-main-facet, #search-results .menu-item a._search-result-facet, #search-entries .menu-item a._search-result-facet {
+	display: none;
+}
+
+/* END BF */
+
+
+/* covid */
+.web-standard [data-slide^='ss20-social-distancing-video'] #logo {
+  display: none;
+} 
+
+[data-content^='ss20-social-distancing-video'] [data-url],
+[data-content^='ss20-social-distancing-video'] [data-contents^='ss20-social-distancing-video']  {
+  pointer-events: none;
+} 
+
+.web-standard .product-detail-page .future-price {
+	margin-top: 6px;
+}
